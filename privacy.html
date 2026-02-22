@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>سياسة الخصوصية - تحدي عبقور</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;max-width:900px;margin:24px auto;padding:0 16px;line-height:1.9}
+    h1,h2{margin:0.6em 0}
+    .card{background:#f7f7f7;border:1px solid #e7e7e7;border-radius:12px;padding:16px}
+    a{color:#0b57d0}
+  </style>
+</head>
+<body>
+  <h1>سياسة الخصوصية</h1>
+  <p><strong>اسم التطبيق:</strong> تحدي عبقور</p>
+  <p>نحترم خصوصيتك ونلتزم بحماية بياناتك. توضح هذه الصفحة ما يتم جمعه وكيفية استخدامه.</p>
+
+  <h2>البيانات التي قد نجمعها</h2>
+  <div class="card">
+    <ul>
+      <li>معرّف المستخدم (UID) وبيانات الحساب الأساسية (مثل الاسم وصورة الملف الشخصي إن وُجدت).</li>
+      <li>بيانات اللعب: النقاط، المستوى، الإحصائيات، الأصدقاء، نتائج الجولات.</li>
+      <li>بيانات تقنية: سجلات أخطاء/أداء لتحسين التطبيق (مثل تقارير الأعطال).</li>
+      <li>بيانات تقريبية مثل الدولة (إن تم تفعيلها) بهدف تحسين التجربة وعرض محتوى مناسب.</li>
+    </ul>
+  </div>
+
+  <h2>كيف نستخدم البيانات</h2>
+  <div class="card">
+    <ul>
+      <li>تسجيل الدخول وإدارة الحساب.</li>
+      <li>تشغيل ميزات اللعب الفردي والمتعدد وتزامن التقدم.</li>
+      <li>تحسين الأداء وحل الأعطال.</li>
+      <li>مكافحة إساءة الاستخدام والغش وحماية المستخدمين.</li>
+    </ul>
+  </div>
+
+  <h2>خدمات الطرف الثالث</h2>
+  <div class="card">
+    <p>يستخدم التطبيق خدمات مثل:</p>
+    <ul>
+      <li>Google Firebase (Authentication, Realtime Database, Firestore, Cloud Functions, Storage, App Check).</li>
+      <li>Google AdMob للإعلانات.</li>
+      <li>Facebook Login (عند تفعيله) لتسجيل الدخول.</li>
+    </ul>
+  </div>
+
+  <h2>مشاركة البيانات</h2>
+  <p>لا نبيع بياناتك. قد تتم مشاركة بعض البيانات مع مزودي الخدمات المذكورين فقط لتشغيل التطبيق وتحسينه وفق سياساتهم.</p>
+
+  <h2>الاحتفاظ بالبيانات</h2>
+  <p>نحتفظ بالبيانات طالما كان حسابك نشطًا أو حسب الحاجة لتقديم الخدمة. يمكنك طلب حذف الحساب من داخل التطبيق.</p>
+
+  <h2>حذف الحساب والبيانات</h2>
+  <p>يمكنك حذف حسابك وبياناتك من داخل التطبيق عبر: <a href="./deletion.html">صفحة حذف البيانات</a>.</p>
+
+  <h2>التواصل</h2>
+  <p>للاستفسارات: ضع بريد الدعم الخاص بك هنا لاحقًا.</p>
+
+  <p style="margin-top:24px;color:#666">آخر تحديث: <span id="d"></span></p>
+  <script>
+    document.getElementById('d').textContent = new Date().toISOString().slice(0,10);
+  </script>
+</body>
+</html>
